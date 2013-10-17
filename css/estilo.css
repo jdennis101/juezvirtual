@@ -1,0 +1,74 @@
+* {
+    font: 12px/18px "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #c0c0c0;
+}
+
+body {
+    background-color: #e0e0e0;
+}
+
+nav {
+    background-color: #000000;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    float: left;
+    padding: 0.5em 1.2em;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul li a:hover {}
+
+.clear { clear: both; }
+
+header>h1 {
+    font-size: 2.0em;
+    padding: 1.0em;
+}
+
+section {
+    min-height: 10.0em;
+}
+
+form  {
+    margin: 1.0em;
+    padding-bottom: 1.0em;
+}
+
+form h2 {
+    margin-left: 8.0em;
+    font-weight: bold;
+}
+
+form p label {
+    float: left;
+    width: 250px;
+    text-align: right;
+    margin-right: 1.0em;
+}
+
+form p input[type="text"] {
+    width: 20.0em;
+}
+
+form p.submit {
+    margin-top: 1.0em;
+    margin-left: 22.0em;
+}
